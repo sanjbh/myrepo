@@ -1,0 +1,21 @@
+tracer.property: "I AM THE DEFAULT"
+spring.jpa.database: "POSTGRESQL"
+spring.datasource.platform: "postgres"
+spring.jpa.show-sql: "true"
+
+spring.jpa.properties.hibernate.show_sql: true
+spring.jpa.properties.hibernate.use_sql_comments: true
+spring.jpa.properties.hibernate.format_sql: true
+spring.jpa.hibernate.ddl-auto: create
+
+spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation: true
+
+spring.database.driverClassName: "org.postgresql.Driver"
+spring.datasource.url: "jdbc:postgresql://172.17.0.2:5432/postgres"
+spring.datasource.username: "postgres"
+spring.datasource.password: '{cipher}1369855f9201455377288050c4723f4bd14b435d4df4b97b5ce2af5bb1e4133c'
+spring.datasource.testWhileIdle: "true"
+spring.datasource.validationQuery: "SELECT 1"
+spring.jpa.properties.hibernate.dialect:
+  "org.hibernate.dialect.PostgreSQLDialect"
+example.property: "Some example property defined in config server"
