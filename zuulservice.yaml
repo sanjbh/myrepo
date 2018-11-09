@@ -6,3 +6,6 @@ zuul:
   ignored-services: '*'
   debug:
     request: true
+logging:
+  level: 
+    com.thoughtmechanix: debug
