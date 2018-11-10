@@ -1,5 +1,6 @@
 zuul:
   prefix: /api  
+  sensitiveHeaders: Cookie,Set-Cookie
   routes:
     organizationservice: /organization/**
     licensingservice: /licensing/**
