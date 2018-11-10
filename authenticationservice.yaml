@@ -21,6 +21,5 @@ spring.jpa.properties.hibernate.dialect:
 server:
   servlet:
     context-path: /auth
-
-server:
   port: 8901
+
