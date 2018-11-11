@@ -23,4 +23,7 @@ server:
     context-path: /auth
   port: 8901
 signing.key: "345345fsdgsf5345"
+logging:
+  level:
+    com.thoughtmechanix.licenses: debug
 
