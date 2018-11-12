@@ -10,3 +10,4 @@ zuul:
 logging:
   level: 
     com.thoughtmechanix: debug
+signing.key: "345345fsdgsf5345"
