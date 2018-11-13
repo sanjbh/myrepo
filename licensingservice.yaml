@@ -24,3 +24,4 @@ signing.key: "345345fsdgsf5345"
 spring.cloud.stream.bindings.input.destination: orgChangeTopic
 spring.cloud.stream.bindings.input.content-type: application/json
 spring.cloud.stream.bindings.input.group: licensingGroup
+logging.level.com.thoughtmechanix: debug
