@@ -25,5 +25,5 @@ server:
 signing.key: "345345fsdgsf5345"
 logging:
   level:
-    com.thoughtmechanix.licenses: debug
+    com.thoughtmechanix.authentication: debug
 
